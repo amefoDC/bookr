@@ -17,7 +17,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(session({ secret: "bookr" }));
 
-require("/src/config/passport.js")(app);
+require("./src/config/passport.js")(app);
 
 app.use(express.static(path.join(__dirname, "/public/")));
 app.use(
