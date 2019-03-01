@@ -1,2 +1,2 @@
 # bookr
-A simple library app built using NodeJs and ES6
+A simple library app built with NodeJs and ES6
