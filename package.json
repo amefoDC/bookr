@@ -5,12 +5,13 @@
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "set DEBUG=app:* & nodemon app.js",
+    "start": "set DEBUG=app:*& nodemon app.js",
     "lint": "eslint app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.18.0",
     "body-parser": "^1.18.3",
     "bootstrap": "4.2.1",
     "chalk": "2.4.2",
@@ -27,7 +28,8 @@
     "passport-local": "^1.0.0",
     "popper": "1.0.1",
     "popper.js": "1.14.6",
-    "pug": "^2.0.3"
+    "pug": "^2.0.3",
+    "xml2js": "^0.4.19"
   },
   "devDependencies": {
     "eslint": "^5.12.1",
